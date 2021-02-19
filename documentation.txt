@@ -1,0 +1,49 @@
+Assesment1_100412942.zip>cr-project>
+
+# A list of technology use in this system
+=============================================
+#Front end is Vuejs, Vuex, Javascript and SCSS
+#Back end is Nuxt Js, API writing and testing with PostMan
+Docker
+#Framework use in Frontend is Vuetify
+
+# Detail how to start the docker-COMMANDS TO USE IN UBUNTU:
+----------------------------------------------------------------------
+# Crate a base container- docker create --name nginx_base -p 80:80 nginx:alpine
+#Inspect images- docker images
+#Inspect Containers- docker ps -a 
+#Start the Container- docker start nginx_base
+#Create an image from a Container- docker commit nginx_base
+#Look at the docker images- docker images
+#Delete the original container- docker ps 
+#Stop the container that is currently running and delete it- docker stop nginx_base
+                                                           - docker rm nginx_base
+#Look at running containers- docker ps
+ #go to localhost:8080 and ENJOY TODAY web based application(table booking application)
+#Stop the container- docker stop cr-project
+
+
+You can access my docker desktop account by using- Username:100412942 Password:123456789
+
+Also I did write the document how to start the docker in readme.md, you can open it with notepad++
+
+# Detail how to run
+---------------------------------------------------------------------
+Open the Assessment1_100412942.zip extract all and then open the cr-project file after that press shift and right click and select the Terminal. After the Terminal runs type this command> docker-compose up. Let the docker to run
+You can read how to run the application in readme.md file
+Extract the zip and you will see it
+
+#Descreption of key parts
+----------------------------------
+#Find place- you can click on to view the map
+#Register
+#Visit place you want in you aerea based on your location and book your table of your preference,the time,your phone number,how many people will attend and you can change your info after you register.
+#you can see the calories by selecting a dish of a pub of your choice
+#Charts 
+#Reviews for each place- you can give your review by selecting on the right up corner how may starts you want to 
+
+
+# Test the application
+-----------------------------------------------------------------
+The API is tested by Postman, the Frontend is test by writing a testcase UnitTest
+Layout responsive is test by swith mobile and web in chrome browser
